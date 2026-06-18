@@ -15,6 +15,7 @@ payload:
   - 'DOMAIN,geller-pa.googleapis.com'
   - 'DOMAIN,keyvalue-pa.googleapis.com'
   - 'DOMAIN,alkalimira-pa.googleapis.com'
+  - 'DOMAIN-SUFFIX,antigravity-unleash.goog'
 
   # OpenAI (ChatGPT, Sora, DALL-E)
   - 'DOMAIN-KEYWORD,openai'
