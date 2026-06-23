@@ -12,7 +12,9 @@ payload:
   - 'DOMAIN-SUFFIX,highwebmedia.com'
   - 'DOMAIN-SUFFIX,mmcdn.com'
   - 'DOMAIN-SUFFIX,mmpayouts.com'
+  - 'DOMAIN-SUFFIX,epoch.com'
   - 'DOMAIN-SUFFIX,mmwebc.dev'
+
   - 'DOMAIN-SUFFIX,cb.dev'
   - 'DOMAIN-SUFFIX,cbbids.com'
   - 'DOMAIN-SUFFIX,cbcams.com'
