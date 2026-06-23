@@ -19,6 +19,11 @@ payload:
   - 'DOMAIN-SUFFIX,cbstatic.com'
   - 'DOMAIN-SUFFIX,cbxyz.com'
   - 'DOMAIN-SUFFIX,clbme.com'
+  - 'DOMAIN-SUFFIX,chcdn.com'
+  - 'DOMAIN-SUFFIX,chmedia.com'
+  - 'DOMAIN-SUFFIX,chstatic.com'
+  - 'DOMAIN-SUFFIX,chvideocdn.com'
+
 
   # Lovense
   - 'DOMAIN-KEYWORD,lovense'
