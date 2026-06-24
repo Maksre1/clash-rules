@@ -1,5 +1,13 @@
 payload:
   # Google AI & Gemini
+  - 'DOMAIN-SUFFIX,google.com'
+  - 'DOMAIN-SUFFIX,googleapis.com'
+  - 'DOMAIN-SUFFIX,googleusercontent.com'
+  - 'DOMAIN-SUFFIX,gstatic.com'
+  - 'DOMAIN-SUFFIX,google'
+  - 'DOMAIN-SUFFIX,goog'
+  - 'DOMAIN-SUFFIX,google.dev'
+  - 'DOMAIN-SUFFIX,recaptcha.net'
   - 'DOMAIN-KEYWORD,gemini'
   - 'DOMAIN-SUFFIX,deepmind.com'
   - 'DOMAIN-SUFFIX,deepmind.google'
