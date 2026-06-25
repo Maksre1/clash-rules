@@ -9,6 +9,9 @@ payload:
   - 'DOMAIN-SUFFIX,google.dev'
   - 'DOMAIN-SUFFIX,recaptcha.net'
   - 'DOMAIN-KEYWORD,gemini'
+  - 'DOMAIN-KEYWORD,colab'
+  - 'DOMAIN-KEYWORD,developerprofiles'
+  - 'DOMAIN-KEYWORD,generativelanguage'
   - 'DOMAIN-SUFFIX,deepmind.com'
   - 'DOMAIN-SUFFIX,deepmind.google'
   - 'DOMAIN-SUFFIX,ai.google.dev'
@@ -18,11 +21,13 @@ payload:
   - 'DOMAIN-SUFFIX,bard.google.com'
   - 'DOMAIN-SUFFIX,gemini.google'
   - 'DOMAIN-SUFFIX,gemini.google.com'
+  - 'DOMAIN-SUFFIX,apis.google.com'
   - 'DOMAIN,generativelanguage.googleapis.com'
   - 'DOMAIN,proactivebackend-pa.googleapis.com'
   - 'DOMAIN,geller-pa.googleapis.com'
   - 'DOMAIN,keyvalue-pa.googleapis.com'
   - 'DOMAIN,alkalimira-pa.googleapis.com'
+  - 'DOMAIN,alkalimakersuite-pa.clients6.google.com'
   - 'DOMAIN-SUFFIX,antigravity-unleash.goog'
 
   # OpenAI (ChatGPT, Sora, DALL-E)
@@ -31,8 +36,16 @@ payload:
   - 'DOMAIN-SUFFIX,openai.com'
   - 'DOMAIN-SUFFIX,chatgpt.com'
   - 'DOMAIN-SUFFIX,sora.com'
+  - 'DOMAIN-SUFFIX,ai.com'
   - 'DOMAIN-SUFFIX,oaistatic.com'
   - 'DOMAIN-SUFFIX,oaiusercontent.com'
+  - 'DOMAIN-SUFFIX,chatgpt.livekit.cloud'
+  - 'DOMAIN-SUFFIX,turn.livekit.cloud'
+  - 'DOMAIN-SUFFIX,host.livekit.cloud'
+  - 'DOMAIN-SUFFIX,client-api.arkoselabs.com'
+  - 'DOMAIN,openai-api.arkoselabs.com'
+  - 'DOMAIN,openaicomproductionae4b.blob.core.windows.net'
+  - 'DOMAIN,production-openaicom-storage.azureedge.net'
   - 'DOMAIN-SUFFIX,openaiapi-site.azureedge.net'
   - 'DOMAIN-SUFFIX,openaicom.imgix.net'
 
@@ -43,14 +56,54 @@ payload:
   - 'DOMAIN-SUFFIX,claude.ai'
   - 'DOMAIN-SUFFIX,claudeusercontent.com'
 
+  # Microsoft Copilot
+  - 'DOMAIN-SUFFIX,edgeservices.bing.com'
+  - 'DOMAIN,copilot.microsoft.com'
+  - 'DOMAIN,sydney.bing.com'
+
+  # Groq
+  - 'DOMAIN-KEYWORD,groq'
+  - 'DOMAIN-SUFFIX,groq.com'
+
+  # xAI / Grok
+  - 'DOMAIN-KEYWORD,grok'
+  - 'DOMAIN-SUFFIX,grok.com'
+  - 'DOMAIN-SUFFIX,x.ai'
+
+  # DeepSeek
+  - 'DOMAIN-KEYWORD,deepseek'
+  - 'DOMAIN-SUFFIX,deepseek.com'
+
+  # Perplexity
+  - 'DOMAIN-KEYWORD,perplexity'
+  - 'DOMAIN-SUFFIX,perplexity.ai'
+
+  # Mistral AI
+  - 'DOMAIN-SUFFIX,mistral.ai'
+
+  # Cohere
+  - 'DOMAIN-SUFFIX,cohere.com'
+  - 'DOMAIN-SUFFIX,cohere.ai'
+
+  # Cursor AI
+  - 'DOMAIN-SUFFIX,cursor.com'
+  - 'DOMAIN-SUFFIX,cursor.sh'
+
+  # Hugging Face
+  - 'DOMAIN-SUFFIX,huggingface.co'
+  - 'DOMAIN-SUFFIX,hf.co'
+
+  # DeepL
+  - 'DOMAIN-SUFFIX,deepl.com'
+
   # Suno
   - 'DOMAIN-KEYWORD,suno'
   - 'DOMAIN-SUFFIX,suno.com'
   - 'DOMAIN-SUFFIX,suno.ai'
 
-  # Perplexity
-  - 'DOMAIN-KEYWORD,perplexity'
-  - 'DOMAIN-SUFFIX,perplexity.ai'
+  # Udio
+  - 'DOMAIN-KEYWORD,udio'
+  - 'DOMAIN-SUFFIX,udio.com'
 
   # Midjourney
   - 'DOMAIN-KEYWORD,midjourney'
@@ -59,16 +112,22 @@ payload:
   # Leonardo.ai
   - 'DOMAIN-SUFFIX,leonardo.ai'
 
+  # Luma AI
+  - 'DOMAIN-SUFFIX,lumalabs.ai'
+
+  # Flux (Black Forest Labs)
+  - 'DOMAIN-SUFFIX,blackforestlabs.ai'
+
+  # Kling AI
+  - 'DOMAIN-SUFFIX,klingai.com'
+  - 'DOMAIN-SUFFIX,kling.ai'
+
   # V0.dev
   - 'DOMAIN-SUFFIX,v0.dev'
 
   # ElevenLabs
   - 'DOMAIN-KEYWORD,elevenlabs'
   - 'DOMAIN-SUFFIX,elevenlabs.io'
-
-  # Udio
-  - 'DOMAIN-KEYWORD,udio'
-  - 'DOMAIN-SUFFIX,udio.com'
 
   # Runway
   - 'DOMAIN-KEYWORD,runwayml'
